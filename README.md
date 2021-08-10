@@ -1,2 +1,2 @@
-"# css-battle-solutions" 
-My solutions from css battle - cssbattle.dev
+# css-battle-solutions
+my solutions from css battle - cssbattle.dev
