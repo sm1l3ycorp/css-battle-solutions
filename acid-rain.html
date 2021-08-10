@@ -1,0 +1,49 @@
+<container>
+    <tear1></tear1>
+    <tear2></tear2>
+    <circle></circle>
+  </container>
+  <style>
+    container {
+      width: 100%;
+      height: 100%;
+      background: #0B2429;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+    circle {
+      background: #F3AC3C;
+      width: 7.5rem;
+      height: 7.5rem;
+      border-radius: 50%;
+      z-index: 0;
+      position: absolute;
+      margin-left: 8.5rem;
+      margin-bottom: 7rem;
+    }
+    tear1 {
+      background: #F3AC3C;
+      width: 7.5rem;
+      height: 7.5rem;
+      border-radius: 50%;
+      z-index: 2;
+      border-radius: 0 50% 50% 50%;
+      transform: rotate(90deg);
+      position: absolute;
+      margin-right: 7rem;
+      margin-top: 7.5rem;
+    }
+      tear2 {
+      background: #998235;
+      width: 7.5rem;
+      height: 7.5rem;
+      border-radius: 50%;
+      z-index: 1;
+      border-radius: 0 50% 50% 50%;
+      transform: rotate(90deg);
+      position: absolute;
+      margin-right: -2rem;
+    }
+  </style>
