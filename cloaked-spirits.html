@@ -1,0 +1,79 @@
+<container>
+    <circle1>
+      <circle2>
+        <circle3>
+  </container>
+  <style>
+    body {
+      background: #62306D;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    container {
+      background: #F7EC7D;
+      width: 20rem;
+      height: 10rem;
+      margin-top: 8.2rem;
+      border-radius: 50% 50% 0% 0%;
+    }
+    circle1 {
+      background: #AA445F;
+      width: 7rem;
+      height: 7rem;
+      z-index: 1;
+      position: absolute;
+      border-radius: 50%;
+    }
+    circle1::after {
+          display: block;
+          position: absolute;
+          left: 1.5rem;
+          top: 1.5rem;
+          content: '';
+          width: 4rem;
+          height: 4rem;
+          border-radius: 50%;
+          background: #E38F66;
+    }
+    circle2 {
+      background: #E38F66;
+      width: 7rem;
+      height: 7rem;
+      z-index: 1;
+      position: absolute;
+      border-radius: 50%;
+    }
+    circle2::after {
+          display: block;
+          position: absolute;
+          left: 1.5rem;
+          top: 1.5rem;
+          content: '';
+          width: 4rem;
+          height: 4rem;
+          border-radius: 50%;
+          background: #AA445F;
+    }
+    circle3 {
+      background: #AA445F;
+      width: 7rem;
+      height: 7rem;
+      z-index: 1;
+      position: absolute;
+      border-radius: 50%;
+      margin-left: 14rem;
+    }
+    circle3::after {
+          display: block;
+          position: absolute;
+          left: 1.5rem;
+          top: 1.5rem;
+          content: '';
+          width: 4rem;
+          height: 4rem;
+          border-radius: 50%;
+          background: #E38F66;
+    }
+  </style>
